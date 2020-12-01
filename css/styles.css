@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -25,16 +26,30 @@ h3 {
 
 a {
   color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
 }
 
 hr {
   border-style: dotted none none none;
   color: #EAF6F6;
-  border-width: 7px;
+  border-width: 6px;
   width: 5%;
-
+  margin: 100px auto;
 }
 
+.profile {
+  padding-top: 100px;
+}
 
 .top-container {
   background-color: #EAF6F6;
@@ -42,44 +57,43 @@ hr {
   padding-top: 100px;
 }
 
-
 .bottom-container {
-background-color: #66BFBF;
-padding-top: 30px;
-padding-bottom: 30px;
-}
-
-.middle-container {
-  padding-bottom: 50px;
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .woman {
   width: 10%;
-  padding-top: 30px;
 }
+
 .top-code {
   width: 25%;
   float: left;
@@ -92,7 +106,62 @@ padding-bottom: 30px;
   margin-left: 30px;
 }
 
+.contact-me {
+  padding-bottom: 100px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: auto;
+}
+
+.btn {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  font-weight: 100;
+  padding: 13px;
+  background-color: #66BFBF;
+  border: solid #66BFBF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn:hover {
+  background: #40514E;
+  border: solid #EAF6F6 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+
+.footer-link-linkedin {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link-facebook {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto 30px auto 30px;
+}
+
+.footer-link-instagram {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .copyright-line {
   color: #EAF6F6;
   margin-bottom: 0;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
